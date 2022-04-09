@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -47,7 +48,7 @@ body{
     background:#FCF7EB;
     background-size: 400% 400%;
     width: 1000px;
-    height: 35vw;
+    height: 22vw;
     font-size: 23px;
 }
 
@@ -73,13 +74,9 @@ overflow-x: auto;
     font-size: 3.5vw;
     
 }
-
-
-
    
 .button1 {border-radius: 40px;}
 .button2 {border-radius: 40px;}
-
 
 section {
     display: block;
@@ -140,7 +137,7 @@ text-transform: uppercase;
 }
 
 #con{
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: 'EB Garamond', serif;
 
 }
@@ -150,31 +147,34 @@ text-transform: uppercase;
     margin-bottom: 10vw;
 }
 
+
 fieldset{
    
     font-family: 'EB Garamond', serif;
     color: black;
-    font-size: 1.3vw;
-    width: 1024px;
+    font-size: 20px;
+    width: 1000px;
     background-color: #FCF7EB;;
 }
+
 textarea{
     resize: none;
     vertical-align: top;
     text-align: left;
     overflow-x: auto;
-    width: 500px;
+    width: 48.5vw;
+    margin-left: 1vw;
+    height: max-content;
 }
 
 label {
     display: inline-block;
-    width: 5vw;
-    margin-left: 2vw;
-
+    width: 4vw;
+    margin-left: 1vw;
   }
 
 input{
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 
 
@@ -196,12 +196,9 @@ color: black;
     background: #FAF5EA;
     background-size: 400% 400%;
     width: 1024px;
-    height: 20vw;
-    font-size: 1vw;
-  
+    height: 15vw;
+    font-size: 1.2vw;
 }
-
-
 
 .reflect{
     height:10vw;
@@ -219,3 +216,17 @@ color: black;
 
 }
 
+
+@media screen and (max-width: 400px) {
+    .myDiv1{
+        flex-direction: column;
+        align-items: flex-start;
+        
+        }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+}
