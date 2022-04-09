@@ -285,6 +285,10 @@ input{
         display: inline-block;
         font-size: 100%;    
       }
+
+      .button1 {border-radius: auto;}
+      .button2 {border-radius: auto;}
+
       table
       {
       border-collapse: separate;
