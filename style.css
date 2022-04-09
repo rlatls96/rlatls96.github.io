@@ -42,7 +42,7 @@ body{
 }
 
 #about{
-    margin: 10vw;
+    margin: 5vw;
     font-family: 'EB Garamond', serif;
     background:#FCF7EB;
     background-size: 400% 400%;
@@ -208,7 +208,7 @@ input{
     background-size: 400% 400%;
     width: 1024px;
     height: 20vw;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .reflect{
