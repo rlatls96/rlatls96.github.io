@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -14,13 +15,14 @@ body{
     text-align: right;
     margin-left: 50vw;
 }
+
 .myDiv1 { 
     width: 1024px;
     font-size: 25px;
     text-align: auto;
     font-family: 'Raleway', sans-serif;
-
 }
+
 #introduce{
     font-size: 30px;
     height: 50vw;;
@@ -37,11 +39,9 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-
-  }
+}
 
 #about{
-    
     font-family: 'EB Garamond', serif;
     background:#FCF7EB;
     background-size: 400% 400%;
@@ -55,10 +55,12 @@ body{
     width: 1024px;
     display: flex;
 }
+
 .box2{
     height: 30vw;
     width: 1024px;
 }
+
 .box3{
     height: 30vw;
     width: 1024px;
@@ -155,7 +157,6 @@ text-transform: uppercase;
 
 
 fieldset{
-   
     font-family: 'EB Garamond', serif;
     color: black;
     font-size: 20px;
@@ -190,13 +191,13 @@ input{
 
 #radiobuttons
 {
-font-size: 1.3vw;
-font-family: 'Roboto Mono', monospace;
-color: black;
+    font-size: 1.3vw;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
 }
 
 #more{
-    margin-top: 10vw;
+
     margin-bottom: 10vw;
     font-family:'EB Garamond', serif;
     background: #FAF5EA;
@@ -249,8 +250,6 @@ color: black;
     }
     
     .box1{
-        flex-direction: column;
-        align-items: center;
         width:100%;
         height: 100%;
         font-size: 100%;
@@ -258,13 +257,13 @@ color: black;
     }
 
     .box2{
-        height: 30vw;
-        width: 1024px;
+        height: auto;
+        width: auto;
     }
     
     .box3{
-        height: 30vw;
-        width: 1024px;
+        height: auto;
+        width: auto;
     }
 
     #about{
@@ -299,7 +298,6 @@ color: black;
           font-family: 'EB Garamond', serif;
           color: black;
           font-size: 100%;
-          
       }
 
     #b3{
@@ -379,7 +377,6 @@ color: black;
         font-size: 100%;
     }
     
-    
     #hr{
         display: none;
     }
@@ -418,6 +415,6 @@ color: black;
     
     }
     
-
 }
+
 
