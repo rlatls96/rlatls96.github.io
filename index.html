@@ -54,8 +54,8 @@
         </ul>
      </div>
     </div>
-    <h2 style="text-align: center;" id="tablet"><i class="fa-solid fa-diploma"></i>EDUCATION </h2>
-        <div id="b3" class="box">
+    <h2 style="text-align: center;" id="tablet"><i class="fas fa-user-graduate" ></i> EDUCATION </h2>
+        <div id="b3" class="box1">
             <div id="education">
                 <table>
                     <tr> 
@@ -87,9 +87,9 @@
            
             
         </div>
-        <div id="more">
-            <h1 style="color: black; text-shadow: 2px 2px white;"> <i  class="laugh-beam" ></i> More about me </h1>
-             <p>Hello, I am a student born in Korea</b>, currently living in Toronto,
+        <div id="more" class="box2">
+            <h1 style="color: black; margin-left: 1vw; "> More about me </h1>
+             <p style = "margin-left: 1vw;" >Hello, I am a student born in Korea</b>, currently living in Toronto,
                 Canada, and attending <b style="color: red">Seneca</b> College. Before I came to Canada, I
                 studied aviation software engineering at a Korean university, but I couldn't graduate and
                 now I'm majoring in computer programming</b> at
@@ -111,7 +111,7 @@
             
         </div>
         
-        <div id="contactme">
+        <div id="contactme" class="box3">
             <div id="con">
                 <h1 style="text-align: center; color: black;"><i class="far fa-address-book"></i><i>  CONTACT ME   </i></h1>
             </div>
@@ -120,27 +120,28 @@
                 <legend>CONTACT ME</legend>
                 <form id="contactfo" method="POST" action="https://httpbin.org/post">  
                 <div>
-                    <label for="name"><b>First Name: </b>   </label> 
-                    <input type="text" id="fistname" name="name" size="25" placeholder="Enter your First Name"required/>
+                    <label for="name"><b>First Name: </b> </label> 
+                    <input type="text" id="fistname" name="name" tabindex="1" size="25" placeholder="Enter your First Name"required/>
+    
                     <label for="name"> <b>Last Name:  </b></label> 
-                    <input type="text" id="lastname" name="name" size="25" placeholder="Enter your Last Name"/>
+                    <input type="text" id="lastname" name="name" tabindex="2" size="25" placeholder="Enter your Last Name"/>
                     <br><br>
-                    <label for="email"> <b>Email address: </b></label> 
-                    <input type="email" id="email" name="email" size="25" placeholder="Enter your e-mail"required/>
-                    <label for="phone"> <b>Phone Number:  </b></label> 
-                    <input type="tel" id="phone" name="phone" size="25" placeholder="Enter your Phone Number"required/>
+                    <label for="email"> <b>Email: </b></label> 
+                    <input type="email" id="email" name="email" tabindex="3" autocomplete="email" size="25" placeholder="Enter your e-mail"required/>
+
+                    <label for="phone"> <b>Phone:  </b></label> 
+                    <input type="tel" id="phone" name="phone" tabindex="4" autocomplete="tel" size="25" placeholder="Enter your Phone Number"required/>
                 </div>
                 <br>
-                <div>
+                <div id = "info">
                     <label for="address"><b>Address: </b> </label> 
-                    <input type="text" id="address" name="address" size="86" placeholder="Enter your address"required/>
+                    <input type="text" id="address" name="address" tabindex="5" autocomplete="street-address" size="50" placeholder="Enter your address"required/>
                 </div>
                 
-                <br>
 
                 <div>
                     <label for="city"> <b>City:  </b></label>
-                <input type="text" list="city" name="city" size="25" placeholder="Enter your city" required>
+                <input type="text" list="city" name="city" tabindex="6" size="25" placeholder="Enter your city" required>
                 <datalist id="city">
                     <option label="Brampton" value="Brampton"></option>
                     <option label="Calgary" value="Calgary"></option>
@@ -185,8 +186,8 @@
                 </div>
 
                 <div id="hr">
-                    <label for="hr"> Hourly wage($): </label> 
-                    <input type="number" id="Hourly_wage" name="Hourly_wage" size="15" placeholder="Enter Hourly wage"/>
+                    <label for="hr"> Hourly rate($): </label> 
+                    <input type="number" id="Hourly_rate" name="Hourly_rate" size="15" placeholder="Enter Hourly rate"/>
                 </div>
                 <br>
                 <div>
@@ -202,7 +203,9 @@
                 </div>
                 </form>
             </fieldset>
-            <script src="final.js"></script>
+        </div>
+    <script src="final.js"></script>
 
 </body>
 </html>
+
