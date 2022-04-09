@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -21,13 +20,12 @@ body{
     font-size: 25px;
     text-align: auto;
     font-family: 'Raleway', sans-serif;
-
 }
+
 #introduce{
     font-size: 30px;
     height: 50vw;;
     text-align: center;
-  
 }
 
 .button {
@@ -55,7 +53,6 @@ body{
 .box{
     height: 30vw;
     width: 1024px;
-    display: flex;
 }
 
 table
@@ -69,7 +66,6 @@ overflow-x: auto;
     margin-top: 20vw;
     margin-bottom: 5vw;
     font-family: 'EB Garamond', serif;
-    text-shadow: 2px 2px black;
     color: black;
     font-size: 3.5vw;
     
@@ -217,16 +213,184 @@ color: black;
 }
 
 
-@media screen and (max-width: 400px) {
-    .myDiv1{
-        flex-direction: column;
-        align-items: flex-start;
+@media screen and (max-width: 1024px) {
+    body{
+        margin: 0px 25vw;
+        max-width: 400px;
+        background: #EBEBEB; 
         
-        }
+    }
+    #introduce{
+        font-size: auto;
+        height: auto;
+        text-align: center;
+    }
+    
+    .myDiv1 { 
+        width: auto;
+        font-size: auto;
+        text-align: auto;
+        font-family: 'Raleway', sans-serif;
+    }
+    
     .box{
         flex-direction: column;
         align-items: center;
         width:100%;
+        height: auto;
+        font-size: auto;
     }
+
+    #about{
+    
+        font-family: 'EB Garamond', serif;
+        background:#FCF7EB;
+        background-size: auto;
+        width: auto;
+        height: auto;
+        font-size: auto;
+    }
+    .button {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: auto;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: auto;    
+      }
+      table
+      {
+      border-collapse: separate;
+      border-spacing: auto;
+      overflow-x: auto;
+      }
+      
+      #tablet{
+          margin-top: auto;
+          margin-bottom: auto;
+          font-family: 'EB Garamond', serif;
+          color: black;
+          font-size: auto;
+          
+      }
+
+      #b3{
+ 
+        height: auto;
+    }
+    
+    th{
+        background-color: #757575; 
+        color: whitesmoke;
+        font-size: auto;
+        height: auto;
+        width: auto;
+    }
+    td{
+        vertical-align: top;
+        width: auto;
+    }
+    tr{
+        background-color: white;
+    }
+    #TableHeading{
+        font-size: auto;
+    }
+    
+    #field
+    {
+        font-size: auto;
+    }
+    td #field{
+        font-size: auto;
+    }
+    #school
+    {
+    color: grey;
+    text-transform: uppercase;
+    }
+    
+    #con{
+        font-size: auto;
+        font-family: 'EB Garamond', serif;
+    
+    }
+    #contextme{
+        width: auto;
+        height: auto;
+        margin-bottom: auto;
+    }
+    
+    
+    fieldset{
+       
+        font-family: 'EB Garamond', serif;
+        color: black;
+        font-size: auto;
+        width: auto;
+        background-color: #FCF7EB;;
+    }
+    
+    textarea{
+        resize: none;
+        vertical-align: top;
+        text-align: auto;
+        overflow-x: auto;
+        width: auto;
+        margin-left: auto;
+        height: auto;
+    }
+    
+    label {
+        display: inline-block;
+        width: auto;
+        margin-left: auto;
+      }
+    
+    input{
+        font-size: auto;
+    }
+    
+    
+    #hr{
+        display: none;
+    }
+    
+    #radiobuttons
+    {
+    font-size: auto;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    }
+    
+    #more{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family:'EB Garamond', serif;
+        background: #FAF5EA;
+        background-size: auto;
+        width: auto;
+        height: auto;
+        font-size: auto;
+    }
+    
+    .reflect{
+        height:auto;
+        font-family: 'Roboto Mono', monospace;
+        font-size: auto;
+        text-align: auto;
+    
+    }
+    
+    .git{
+        height:auto;
+        font-family: 'Roboto Mono', monospace;
+        font-size: auto;
+        text-align: auto;
+    
+    }
+    
 
 }
