@@ -18,6 +18,7 @@ footer{
 
 .myDiv1 { 
     margin: auto;
+    margin-bottom: 5vw;
     font-size: 25px;
     text-align: auto;
     font-family: 'Raleway', sans-serif;
@@ -44,6 +45,7 @@ footer{
 
 #about{
     margin: auto;
+    margin-top: 5vw;
     margin-left: 10vw;
     font-family: 'EB Garamond', serif;
     background-size: 400% 400%;
@@ -81,6 +83,7 @@ overflow-x: auto;
 }
 
 #tablet{
+    margin-top: 10vw;
     font-family: 'EB Garamond', serif;
     color: black;
     font-size: 3.5vw;
@@ -225,7 +228,7 @@ input{
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1600px) {
     body{
         margin: auto;
         max-width: 100%;
@@ -239,20 +242,23 @@ input{
     }
 	
     #introduce{
+        margin: auto;
         font-size: 100%;
         height: 100%;
         text-align: center;
     }
     
     .myDiv1 { 
+        margin: auto;
         width: 100%;
+        margin-bottom: 5vw;
         font-size: 100%;
         text-align: auto;
         font-family: 'Raleway', sans-serif;
     }
     
     .box1{
-        margin-top: auto;
+        margin-top: 33vw;
         width:100%;
         height: 100%;
         font-size: 100%;
@@ -260,20 +266,22 @@ input{
     }
 
     .box2{
-
+        margin-top: 5vw;
+        margin-bottom: 20vw;
         height: auto;
         width: auto;
     }
     
     .box3{
- 
+        margin-top: 5vw;
         height: auto;
         width: auto;
         background: #FAF5EA;
     }
 
     #about{
-        margin-top: auto;
+        margin-top: 5vw;
+        margin-left: 10vw;
         font-family: 'EB Garamond', serif;
         background-size: 100%;
         width: 100%;
@@ -297,12 +305,12 @@ input{
       table
       {
       border-collapse: separate;
-      border-spacing: 100%;
-      overflow-x: 100%;
+      border-spacing: 0 1.3vw;
+      overflow-x: auto;
       }
       
       #tablet{
-          margin-top: auto;
+          margin-top: 20vw;
           margin-bottom: auto;
           font-family: 'EB Garamond', serif;
           color: black;
@@ -319,11 +327,11 @@ input{
         color: whitesmoke;
         font-size: 100%;
         height: 100%;
-        width: 100%;
+        width: auto;
     }
     td{
         vertical-align: top;
-        width: 100%;
+        width: auto;
     }
     tr{
         background-color: white;
@@ -351,6 +359,7 @@ input{
     
     }
     #contextme{
+        margin: auto;
         width: 100%;
         height: 100%;
         margin-bottom: auto;
@@ -362,7 +371,7 @@ input{
         font-family: 'EB Garamond', serif;
         color: black;
         font-size: 100%;
-        width: 100%;
+        width: auto;
         background-color: #FCF7EB;;
     }
     
@@ -371,7 +380,7 @@ input{
         vertical-align: top;
         text-align: auto;
         overflow-x: auto;
-        width: 100%;
+        width: auto;
         margin-left: auto;
         height: 100%;
     }
@@ -398,8 +407,8 @@ input{
     }
     
     #more{
-        margin-top: auto;
-        margin-bottom: auto;
+        margin-top: 10vw;
+        margin-bottom: 20vw;
         font-family:'EB Garamond', serif;
         background: #FAF5EA;
         background-size: auto;
@@ -413,7 +422,6 @@ input{
         font-family: 'Roboto Mono', monospace;
         font-size: 100%;
         text-align: auto;
-    
     }
     
     .git{
@@ -421,11 +429,8 @@ input{
         font-family: 'Roboto Mono', monospace;
         font-size: 100%;
         text-align: auto;
-    
     }
-    
 }
-
 
 
 
