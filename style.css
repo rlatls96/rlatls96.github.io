@@ -5,13 +5,13 @@
 
 body{    
     background: #EBEBEB;
+   
 }
 footer{
     background-color: black;
 }
 #sns{
     font-size: 4vw;
-    background-size: 1000%;
     text-align: right;
 
 }
@@ -174,7 +174,7 @@ fieldset{
     font-family: 'EB Garamond', serif;
     color: black;
     font-size: 20px;
-    width: 1024px;
+    width: fit-content;
     background-color: #FCF7EB;
     margin-bottom: 10vw;
 }
@@ -197,11 +197,13 @@ label {
 
 input{
     font-size: 1.3vw;
+    width: fit-content;
 }
 
 
 #hr{
     display: none;
+    margin-left: 5vw;
 }
 
 #radiobuttons
@@ -210,7 +212,6 @@ input{
     font-family: 'Roboto Mono', monospace;
     color: black;
 }
-
 
 
 .reflect{
@@ -229,11 +230,9 @@ input{
 
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1023px) {
     body{
-        margin: auto;
-        max-width: 100%;
-        max-height: 100%;
+        
         background: #EBEBEB; 
     }
 	
@@ -241,9 +240,11 @@ input{
         width: 100%;
         height: 100%;
     }
+    #sns{
+        text-align: right;
+    }
 	
     #introduce{
-        margin: auto;
         font-size: 100%;
         height: 100%;
         text-align: center;
@@ -260,10 +261,8 @@ input{
     
     .box1{
         margin-top: 5vw;
-        width:100%;
+        width: fit-content;
         height: 100%;
-        font-size: 100%;
-        display: flex;
     }
 
     .box2{
@@ -278,6 +277,10 @@ input{
         height: auto;
         width: auto;
         background: #FAF5EA;
+    }
+    .box4{
+        height: auto;
+        width: auto;
     }
 
     #about{
@@ -307,6 +310,7 @@ input{
       {
       border-collapse: separate;
       border-spacing: 0 1.3vw;
+      width: fit-content;
       overflow-x: auto;
       }
       
@@ -355,13 +359,12 @@ input{
     }
     
     #con{
-        font-size: 100%;
         font-family: 'EB Garamond', serif;
     
     }
     #contextme{
         margin: auto;
-        width: 100%;
+        width: auto;
         height: 100%;
         margin-bottom: auto;
     }
@@ -372,16 +375,14 @@ input{
         font-family: 'EB Garamond', serif;
         color: black;
         font-size: 100%;
-        width: auto;
+        width: max-content;
         background-color: #FCF7EB;;
     }
     
     textarea{
         resize: none;
         vertical-align: top;
-        text-align: auto;
         overflow-x: auto;
-        width: auto;
         margin-left: auto;
         height: 100%;
     }
@@ -389,6 +390,7 @@ input{
     label {
         display: inline-block;
         width: 100%;
+    
         margin-left: auto;
       }
     
