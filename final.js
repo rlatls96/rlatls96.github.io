@@ -1,4 +1,4 @@
-function select()
+function dynamic()
 {
 if(document.getElementById('hiring').checked)
 {
