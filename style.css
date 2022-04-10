@@ -49,14 +49,15 @@ footer{
     margin-left: 10vw;
     font-family: 'EB Garamond', serif;
     background-size: 400% 400%;
-    width: 1024px;
-    height: 400px;
+    width: 900px;
+    height: 700px;
     text-align: auto;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .box1{
     margin: auto;
+    margin-top: 5vw;
     background-color: white;
     height: 30vw;
     display: flex;
@@ -83,7 +84,7 @@ overflow-x: auto;
 }
 
 #tablet{
-    margin-top: 10vw;
+    margin-top: 5vw;
     font-family: 'EB Garamond', serif;
     color: black;
     font-size: 3.5vw;
@@ -258,7 +259,7 @@ input{
     }
     
     .box1{
-        margin-top: 33vw;
+        margin-top: 5vw;
         width:100%;
         height: 100%;
         font-size: 100%;
@@ -267,7 +268,7 @@ input{
 
     .box2{
         margin-top: 5vw;
-        margin-bottom: 20vw;
+        margin-bottom: 5vw;
         height: auto;
         width: auto;
     }
@@ -310,7 +311,7 @@ input{
       }
       
       #tablet{
-          margin-top: 20vw;
+          margin-top: 5vw;
           margin-bottom: auto;
           font-family: 'EB Garamond', serif;
           color: black;
@@ -408,7 +409,7 @@ input{
     
     #more{
         margin-top: 10vw;
-        margin-bottom: 20vw;
+        margin-bottom: 10vw;
         font-family:'EB Garamond', serif;
         background: #FAF5EA;
         background-size: auto;
@@ -431,6 +432,4 @@ input{
         text-align: auto;
     }
 }
-
-
 
