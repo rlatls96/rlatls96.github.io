@@ -1,4 +1,4 @@
-function dynamic()
+function select()
 {
 if(document.getElementById('hiring').checked)
 {
@@ -10,4 +10,6 @@ document.getElementById('hr').style.display = "none";
 }
 return;
 }
+
+
 
