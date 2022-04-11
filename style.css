@@ -303,15 +303,8 @@ input{
         width: auto;
     }
 
-    #TableHeading{
-        font-size: 100%;
-    }
-    
-    #field
-    {
-        font-size: 100%;
-    }
-
+    #TableHeading,
+    #field,
     td #field{
         font-size: 100%;
     }
