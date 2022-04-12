@@ -181,7 +181,7 @@ input{
 
 #hr{
     display: none;
-    grid-column: 1 / 3;
+    grid-column: 2 / 3;
 }
 #radiobuttons
 {
@@ -463,9 +463,7 @@ form#contactfo {
         width: fit-content;
         margin-left: auto;
     }
-    #hr{
-        display: none;
-    }
+
     #more{
         margin-top: 10vw;
         width: 95%;
