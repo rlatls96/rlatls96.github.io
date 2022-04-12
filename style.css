@@ -5,7 +5,6 @@
 
 body{    
     background: #EBEBEB;
-   
 }
 #sns{
     font-size: 4vw;
@@ -65,7 +64,6 @@ footer{
 .box2{
     margin: auto;
     height: 30vw;
-
 }
 
 table
@@ -141,9 +139,7 @@ td #field{
 #con{
     font-size: 2vw;
     font-family: 'EB Garamond', serif;
-
 }
-
 fieldset{
     margin: auto;
     font-family: 'EB Garamond', serif;
