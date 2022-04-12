@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -159,7 +159,7 @@ textarea{
     vertical-align: top;
     text-align: left;
     overflow-x: auto;
-    width: 50vw;
+    width: 40vw;
     margin-left: 1vw;
     height: max-content;
 }
@@ -204,7 +204,8 @@ form#contactfo {
   }
 .lname,
 .phone,
-.postal {
+.postal,
+.province {
     font-size: 100%;
     grid-column: 5 / 5;
   }
@@ -221,6 +222,7 @@ form#contactfo {
     grid-column: 2 / 8;
     display: flex;
   }
+
 @media screen and (max-width:768px) {
     .button1,
 .button2 {border-radius: 20px;}
@@ -349,7 +351,8 @@ form#contactfo {
       }
       .lname,
       .phone,
-      .postal {
+      .postal,
+      .province {
         margin-left: 40vw;
         grid-column: 2 / 4;
       }
@@ -449,6 +452,7 @@ form#contactfo {
     textarea{
         margin-left: auto;
         height: 100%;
+        width: 50vw;
     }
     label {
         width: fit-content;
@@ -470,6 +474,8 @@ form#contactfo {
         text-align: auto;
     }
 }
+
+
 
 
 
