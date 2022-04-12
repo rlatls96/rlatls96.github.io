@@ -232,7 +232,7 @@ form#contactfo {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 100%;
 }
     img{
         width: 100%;
@@ -310,7 +310,7 @@ form#contactfo {
     td #field,
     input,
     #radiobuttons{
-        font-size: 1vw;
+        font-size: 100%;
     }
 
     #contextme{
@@ -324,6 +324,7 @@ form#contactfo {
         resize: none;
         vertical-align: top;
         overflow-x: auto;
+        width: 40vw;
     }
     
     label {
@@ -621,6 +622,9 @@ form#contactfo {
         text-align: auto;
     }
 }
+
+
+
 
 
 
