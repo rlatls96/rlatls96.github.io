@@ -56,7 +56,7 @@
     
         <!--An Education section-->
         <h2 style="text-align: center;" id="tablet"><i class="fas fa-user-graduate" ></i> EDUCATION </h2>
-        <div id="b3" class="box2">
+        <div id="b2" class="box2">
             <div id="education">
                 <table>
                     <tr> 
@@ -111,80 +111,81 @@
         </div>
         
         <!--Context me Section-->
-        <div id="contactme" class="box4">
+        <div id="contactme" class = "box4">
             <div id="con">
                 <h1 style="text-align: center; color: black;"><i class="far fa-address-book"></i><i>  CONTACT ME </i></h1>
             </div>
-    
+        </div>
             <fieldset>
                 <legend>CONTACT ME</legend>
                 <form id="contactfo" method="POST" action="https://httpbin.org/post">  
-                    <div id = "info">
+                    <div class = "fname">
                         <label for="name"><b>First Name: </b> </label> 
                         <input type="text" id="fistname" name="name" tabindex="1" placeholder="Enter your First Name"required/>
-        
+                    </div>
+                    <div class = "lname">
                         <label for="name"> <b>Last Name:  </b></label> 
                         <input type="text" id="lastname" name="name" tabindex="2"  placeholder="Enter your Last Name"/>
-                        
-                        <br><br>
-                        
-                        <label for="email"> <b>Email&ensp;&ensp;&ensp;&ensp;: </b></label> 
+                    </div>
+
+                    <div class = "email">
+                        <label for="email"> <b>Email: </b></label> 
                         <input type="email" id="email" name="email" tabindex="3" autocomplete="email" placeholder="Enter your e-mail"required/>
-    
-                        <label for="phone"> <b>Phone&ensp;&ensp;&ensp;&nbsp;:  </b></label> 
+                    </div>
+        
+                    <div class = "phone">
+                        <label for="phone"> <b>Phone:  </b></label> 
                         <input type="tel" id="phone" name="phone" tabindex="4" autocomplete="tel"  placeholder="Enter your Phone Number"required/>
                     </div>
-                    
-                    <br>
-                    
-                    <div id = "info">
-                        <label for="address"><b>Address&ensp;&ensp;&nbsp;: </b> </label> 
+
+                    <div class = "address">
+                        <label for="address"><b>Address: </b> </label> 
                         <input type="text" id="address" name="address" tabindex="5" autocomplete="street-address" placeholder="Enter your address"required/>
                     </div>
                     
-                    <br>
     
-                    <div id = "info">
-                        <label for="city"> <b>City&ensp;&ensp;&ensp;&ensp;&ensp;:  </b></label>
+                    <div class = "city">
+                        <label for="city"> <b>City:  </b></label>
                         <input type="text" list="city" name="city" tabindex="6"  placeholder="Enter your city" required>
-    
-                        <!--Make datalist of city in Canada-->
-                        <datalist id="city">
-                            <option label="Brampton" value="Brampton"></option>
-                            <option label="Calgary" value="Calgary"></option>
-                            <option label="Charlottetown" value="Charlottetown"></option>
-                            <option label="Chibougamau" value="Chibougamau"></option>
-                            <option label="Chilliwack" value="Chilliwack"></option>
-                            <option label="Cold Lake" value="Cold Lake"></option>
-                            <option label="Dorval" value="Dorval"></option>
-                            <option label="Edmonton" value="Edmonton"></option>
-                            <option label="Flin Flon" value="Flin Flon"></option>
-                            <option label="Hamilton" value="Hamilton"></option>
-                            <option label="Iqualuit" value="Iqualuit"></option>
-                            <option label="Ontario" value="Ontario"></option>
-                            <option label="Ottawa" value="Ottawa"></option>
-                            <option label="Miramichi" value="Miramichi"></option>
-                            <option label="Mississauga" value="Mississauga"></option>
-                            <option label="Montreal" value="Montreal"></option>
-                            <option label="Red Deer" value="Red Deer"></option>
-                            <option label="St. John" value="St. John"></option>
-                            <option label="St. John's" value="St. John's"></option>
-                            <option label="Toronto" value="Toronto"></option>
-                            <option label="Vancouver" value="Vancouver"></option>
-                            <option label="Vaughan" value="Vaughan"></option>
-                            <option label="Whitehorse" value="Whitehorse"></option>
-                            <option label="Winnipeg" value="Winnipeg"></option>
-                            <option label="Woodbridge" value="Woodbridge"></option>
-                            <option label="Yellowknife" value="Yellowknife"></option>
-                        </datalist>
-    
-                        <!--Make Postal code and give pattern-->
-                        <label for="postalcode"> <b>Postal Code:</b> </label> 
-                        <input type="text" id="postalcode" title="Use format A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" name="postalcode"maxlength="25" placeholder="Enter your postal code"required/>
                     </div>
-                    <br>
-                    
-                    <div>
+
+                    <!--Make datalist of Canada cities-->
+                    <datalist id="city">
+                        <option label="Brampton" value="Brampton"></option>
+                        <option label="Calgary" value="Calgary"></option>
+                        <option label="Charlottetown" value="Charlottetown"></option>
+                        <option label="Chibougamau" value="Chibougamau"></option>
+                        <option label="Chilliwack" value="Chilliwack"></option>
+                        <option label="Cold Lake" value="Cold Lake"></option>
+                        <option label="Dorval" value="Dorval"></option>
+                        <option label="Edmonton" value="Edmonton"></option>
+                        <option label="Flin Flon" value="Flin Flon"></option>
+                        <option label="Hamilton" value="Hamilton"></option>
+                        <option label="Iqualuit" value="Iqualuit"></option>
+                        <option label="Ontario" value="Ontario"></option>
+                        <option label="Ottawa" value="Ottawa"></option>
+                        <option label="Miramichi" value="Miramichi"></option>
+                        <option label="Mississauga" value="Mississauga"></option>
+                        <option label="Montreal" value="Montreal"></option>
+                        <option label="Red Deer" value="Red Deer"></option>
+                        <option label="St. John" value="St. John"></option>
+                        <option label="St. John's" value="St. John's"></option>
+                        <option label="Toronto" value="Toronto"></option>
+                        <option label="Vancouver" value="Vancouver"></option>
+                        <option label="Vaughan" value="Vaughan"></option>
+                        <option label="Whitehorse" value="Whitehorse"></option>
+                        <option label="Winnipeg" value="Winnipeg"></option>
+                        <option label="Woodbridge" value="Woodbridge"></option>
+                        <option label="Yellowknife" value="Yellowknife"></option>
+                    </datalist>
+
+                    <!--Make Postal code and give pattern-->
+                    <div class = "postal">
+                        <label for="postalcode"> <b>Postal:</b> </label> 
+                        <input type="text" id="postalcode" title="Use format A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" name="postalcode" placeholder="Enter your postal code"required/>
+                    </div>
+
+                    <div class ="purpose">
                         <!--Make radioButtons-->
                         <label for="purpose"> <b>Purpose: </b></label>
                         <span id="radiobuttons">
@@ -195,27 +196,23 @@
                     </div>
 
                     <!--option of radioButtons-->
-                    <div id="hr">
+                    <div id ="hr">
                         <label for="hr"> Hourly Rate($): </label> 
-                        <input type="number" id="Hourly_rate" name="Hourly_rate" size="15" placeholder="Enter Hourly rate"/>
+                        <input type="number" id="Hourly_rate" name="Hourly_rate" placeholder="Enter Hourly rate"/>
                     </div>
                     
-                    <br>
-                    
                     <!--Make Message part using textarea-->
-                    <div>
+                    <div class = "message">
                         <label for="message"> <b>Message: </b></label>
                         <textarea form="contactform" rows="5" cols="80" name="message"></textarea>
                     </div>
-                   
-                    <br>
-                    <div>
+
+                    <div class = "submit">
                         <input type="submit" value="Submit">
                         <input type="reset" value="Clear">
                     </div>
                 </form>
             </fieldset>
-        </div>
     </body>
 
     <!--Make footer-->
@@ -232,3 +229,4 @@
     <script src="final.js"></script>
     
 </html>
+
