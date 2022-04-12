@@ -142,11 +142,31 @@
                         <label for="address"><b>Address: </b> </label> 
                         <input type="text" id="address" name="address" tabindex="5" autocomplete="street-address" placeholder="Enter your address"required/>
                     </div>
-                    
+
+                    <div class = "province">
+                        <label for="province"> <b>Province:  </b></label>
+                        <input type="text" list="province" name="province" tabindex="6"  placeholder="Enter your Province" required>
+                    </div>
+
+                     <!--Make datalist of Canada Province-->
+                    <datalist id="province">
+                        <option label="Ontario" value="Ontario"></option>
+                        <option label="Quebec" value="Quebec"></option>
+                        <option label="Nova Scotia" value="Nova Scotia"></option>
+                        <option label="New Brunswick" value="New Brunswick"></option>
+                        <option label="Manitoba" value="Manitoba"></option>
+                        <option label="British Columbia" value="British Columbia"></option>
+                        <option label="Prince Edward Island" value="Prince Edward Island"></option>
+                        <option label="Saskatchewan" value="Saskatchewan"></option>
+                        <option label="Newfoundland and Labrador" value="Newfoundland and Labrador"></option>
+                        <option label="Northwest Territories" value="Northwest Territories"></option>
+                        <option label="Yukon" value="Yukon"></option>
+                        <option label="Nunavut" value="Nunavut"></option>        
+                    </datalist>
     
                     <div class = "city">
                         <label for="city"> <b>City:  </b></label>
-                        <input type="text" list="city" name="city" tabindex="6"  placeholder="Enter your city" required>
+                        <input type="text" list="city" name="city" tabindex="7"  placeholder="Enter your city" required>
                     </div>
 
                     <!--Make datalist of Canada cities-->
@@ -182,7 +202,7 @@
                     <!--Make Postal code and give pattern-->
                     <div class = "postal">
                         <label for="postalcode"> <b>Postal:</b> </label> 
-                        <input type="text" id="postalcode" title="Use format A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" name="postalcode" placeholder="Enter your postal code"required/>
+                        <input type="text" id="postalcode" title="Use format A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" name="postalcode"  tabindex="8" placeholder="Enter your postal code"required/>
                     </div>
 
                     <div class ="purpose">
