@@ -221,7 +221,7 @@ form#contactfo {
     grid-column: 2 / 8;
     display: flex;
   }
-@media screen and (max-width:499px) {
+@media screen and (max-width:768px) {
     .button1,
 .button2 {border-radius: 20px;}
 .button {
@@ -324,7 +324,7 @@ form#contactfo {
         resize: none;
         vertical-align: top;
         overflow-x: auto;
-        width: 80vw;
+        width: 55vw;
     }
     
     label {
@@ -372,167 +372,13 @@ form#contactfo {
     form#contactfo {
         grid-template-columns: repeat(6, 0px);
         font-size: 50%;
-        justify-content: normal;
+        justify-content: center;
     }
 
   }
 
-@media screen and (min-width: 500px)and (max-width: 699px){
-    img{
-        width: 100%;
-        height: 100%;
-    }
 
-    #sns{
-        text-align: right;
-    }
-	
-    #introduce{
-        font-size: 100%;
-        height: 100%;
-        text-align: center;
-    }
-    
-    .myDiv1 { 
-        margin: auto;
-        width: 100%;
-        margin-bottom: 5vw;
-        font-size: 100%;
-        text-align: auto;
-    }
-    
-    .box1{
-        width: fit-content;
-        height: 100%;
-    }
-
-    .box2{
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        height: auto;
-        width: auto;
-    }
-    
-    .box3{
-        margin-top: 5vw;
-        height: auto;
-        width: auto;
-    }
-    .box4{
-        height: auto;
-        width: auto;
-    }
-
-    #about{
-        margin-left: 10vw;
-        background-size: 100%;
-        width: 100%;
-        height: 100%;
-        font-size: 1vw;
-    }
-
-    table{
-        width: fit-content;
-        overflow-x: auto;
-    }
-      
-    #tablet{
-        margin-top: 5vw;
-    }
-
-    #b2{
-        height: 100%;
-    }
-    
-    th{
-        height: 100%;
-        width: auto;
-    }
-
-    td{
-        vertical-align: top;
-        width: auto;
-    }
-
-    #field,
-    td #field,
-    input,
-    #radiobuttons{
-        font-size: 100%;
-    }
-
-    #contextme{
-        margin: auto;
-        max-width: 1024px;
-        height: 100%;
-        margin-bottom: auto;
-    }
-
-    textarea{
-        resize: none;
-        vertical-align: top;
-        overflow-x: auto;
-        margin-left: auto;
-    }
-    
-    label {
-        width: fit-content;
-        margin-left: auto;
-    }
-    
-    #hr{
-        display: none;
-    }
-    
-    #more{
-        margin-top: 10vw;
-        background-size: auto;
-        width: 100%;
-        height: 100%;
-    }
-    .reflect,
-    .git{
-        height:auto;
-        text-align: auto;
-    }
-    .fname,
-    .city {
-        grid-column: 1;
-      }
-      .lname {
-        grid-column: 4 / 4;
-      }
-      .email,
-      .address {
-        grid-column: 2 / 1;
-      }
-      .phone,
-      .postal {
-        grid-column: 4 / 4;
-      }
-      .purpose {
-        grid-column: 1 / span3;
-      }
-      .message {
-        grid-column: 1 / span6;
-      }
-      .submit{
-        margin-top: 2vw;
-        grid-column: 1 / 8;
-        display: flex;
-      }
-
-    fieldset{
-        width:fit-content;
-        margin-bottom: 10vw;
-    }
-    form#contactfo {
-        grid-template-columns: repeat(6, 40px);
-        font-size: 50%;
-    }
-}
-
-@media screen and (min-width: 700px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     fieldset{
         width:auto;
         margin-bottom: 10vw;
@@ -624,10 +470,6 @@ form#contactfo {
         text-align: auto;
     }
 }
-
-
-
-
 
 
 
