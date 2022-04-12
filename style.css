@@ -5,6 +5,7 @@
 
 body{    
     background: #EBEBEB;
+   
 }
 #sns{
     font-size: 4vw;
@@ -64,6 +65,7 @@ footer{
 .box2{
     margin: auto;
     height: 30vw;
+
 }
 
 table
@@ -139,7 +141,9 @@ td #field{
 #con{
     font-size: 2vw;
     font-family: 'EB Garamond', serif;
+
 }
+
 fieldset{
     margin: auto;
     font-family: 'EB Garamond', serif;
@@ -264,7 +268,7 @@ form#contactfo {
         background-size: 100%;
         width: 100%;
         height: 100%;
-        font-size: 100%;
+        font-size: 1vw;
     }
 
     table{
@@ -411,6 +415,7 @@ form#contactfo {
         background-size: 100%;
         width: 100%;
         height: 100%;
+        font-size: 1vw;
     }
 
     table{
@@ -606,7 +611,6 @@ form#contactfo {
         text-align: auto;
     }
 }
-
 
 
 
